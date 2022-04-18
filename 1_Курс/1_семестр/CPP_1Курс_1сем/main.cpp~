@@ -1,0 +1,18 @@
+#include <iostream> 
+ 
+#include "func.h" // подключаем заголовочный файл с внешней функцией 
+
+using namespace std;
+
+int main()
+{ 
+ setlocale(LC_ALL, "Russian");
+  cout << "Запускается головная программа\n\n";
+  cout << "Введите число > ";
+  int n;
+  cin >> n;
+  int m;		
+  m = func(n);   
+  cout << "\nРезультат работы внешней функции: " << m << "\n\n";					   
+  return 0;
+}

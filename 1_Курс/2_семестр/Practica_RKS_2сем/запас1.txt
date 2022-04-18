@@ -1,0 +1,9 @@
+//	while(!file.eof()){
+//		file>>s.a;
+//	file.get(s.a, 20,',');
+////		cout<<s.a<<"\n";
+//	//cout<<"pos"<<file.tellg()<<endl;
+//	file.get();
+//	file >> s.b;
+
+

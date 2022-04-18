@@ -1,0 +1,48 @@
+ int main()
+ /*	const int size=6;
+  	int a[size];
+  	int num[size];
+  	for(int i=0;i<size;i++){
+		cout<<i+1<<" element: ";
+		cin>>a[i];
+	}
+  	for(int i=0;i<size;i++){
+  	cout<<a[i]<<" ";
+	}
+  	cout<<endl; */
+  	
+  	//for(int i=0;i<size;i++)
+	//cout<<a[i]<<" ";
+
+
+//void qsort (int *array,const int n) // Ôóíêöèÿ ïîëó÷àåò íà âõîä Ìàññèâ è êîëè÷åñòâî ýëåìåíòîâ.
+//{
+//  	int mid;
+//  	mid = (n / 2);
+//  	for(int i=0;i<n;i++)			//Öèêë äåëåíèÿ ìàññèâà íà äâå ÷àñòè.Ìåíÿÿ ëåâóþ ÷àñòü ïî âîçðàñòàíèþ è ïðàâóþ.
+//  	{
+//  		if(i < mid)
+//		{
+//  			if(array[i] > array[mid])
+//  			{
+//  				int abc = array[i];
+//  				array[i] = array[mid];
+//  				array[mid] = abc;
+//			}
+//		}
+//		if ( i > mid)
+//		{
+//			if(array[i] < array[mid])
+//			{
+//				int abc = array[i];
+//  				array[i] = array[mid];
+//  				array[mid] = abc;	
+//			}
+//		}
+//		
+//			int abc = array[i];
+//  				array[i] = array[mid];
+//  				array[mid] = abc;
+//		
+//	}
+//}
